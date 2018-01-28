@@ -1,3 +1,7 @@
-<p>
-  search works!
-</p>
+<div class="search">
+  <input (input)="query($event.target.value)" class="search__input"/>
+  <button (click)="search()">Search</button>
+  <div class=search__result>
+
+  </div>
+</div>
