@@ -10,9 +10,10 @@ import { FormsModule } from "@angular/forms";
 import { WeatherService } from "./services/weather.service";
 import { ListViewComponent } from "./components/list-view/list-view.component";
 import { ItemViewComponent } from "./components/item-view/item-view.component";
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
-  declarations: [AppComponent, ListViewComponent, ItemViewComponent],
+  declarations: [AppComponent, ListViewComponent, ItemViewComponent, DashboardComponent],
   imports: [BrowserModule, FormsModule, HttpClientModule],
   providers: [WeatherService],
   bootstrap: [AppComponent]
